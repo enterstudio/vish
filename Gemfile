@@ -24,7 +24,7 @@ gem 'resque', '= 1.23.1'
 gem 'rmagick', '=2.13.2'
 gem 'thinking-sphinx', '= 2.0.14'
 gem 'exception_notification', '= 4.1.1'
-gem 'rspec-rails', '= 2.9'
+gem 'rspec-rails', '= 2.9.0'
 gem 'net-ssh', '= 2.4.0'
 gem 'shortener', '= 0.3.0'
 gem 'rubyzip', '= 1.0.0'
@@ -35,7 +35,7 @@ gem 'avatars_for_rails', '= 1.1.4'
 gem 'axlsx', '= 2.0.1' #xlsx generation
 gem 'axlsx_rails', '= 0.1.5'
 gem 'acts_as_xlsx', :git => 'git://github.com/randym/acts_as_xlsx.git', :ref => '919817e590b1cf8e27632e630469603c78a50402'
-gem "paperclip", '= 3.5.1'
+gem "paperclip", "= 3.5.1"
 gem "delayed_paperclip", "= 2.7.0"
 gem 'sanitize', '= 2.1.0'
 gem 'mailboxer', '= 0.10.3'
@@ -100,6 +100,6 @@ end
 
 group :test do
   # Pretty printed test output
-  gem 'factory_girl', '= 2.6'
+  gem 'factory_girl', '= 2.6.0'
   gem 'capybara', '= 2.3.0'
 end
